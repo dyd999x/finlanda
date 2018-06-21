@@ -7,10 +7,13 @@ window.onscroll = function (prevScrollPos) {
 
     }
 }
-
-
+var x;
 function seeInput(){
-    var x = document.getElementById("user_input").value;
-    document.getElementById("demo").innerHTML = x;
-    alert(x);
+    var data=document.getElementById("user_input").value;
+
+    return data
+}
+function readAll(){
+    var x=seeInput();
+    return x
 }
