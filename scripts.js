@@ -8,7 +8,9 @@ window.onscroll = function (prevScrollPos) {
     }
 }
 
-var data = $('#form').serializeArray().reduce(function(obj, item) {
-    obj[item.name] = item.value;
-    return obj;
-}, {});
+
+function seeInput(){
+    var x = document.getElementById("user_input").value;
+    document.getElementById("demo").innerHTML = x;
+    alert(x);
+}
