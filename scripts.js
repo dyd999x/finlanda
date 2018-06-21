@@ -7,3 +7,6 @@ window.onscroll = function (prevScrollPos) {
 
     }
 }
+const handleFormSubmit = event =>{
+
+}

@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94d2c41f-058b-4061-9a9a-f4c01510f61f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/formtest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cropped-logo_midres-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/pic_test.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/firstPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formtest.html" beforeDir="false" afterPath="$PROJECT_DIR$/formtest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="107" column="14" lean-forward="true" selection-start-line="107" selection-start-column="14" selection-end-line="107" selection-end-column="14" />
+            <state relative-caret-position="256">
+              <caret line="362" column="23" selection-start-line="362" selection-start-column="23" selection-end-line="362" selection-end-column="23" />
               <folding>
                 <element signature="e#463#1160#2" expanded="true" />
                 <element signature="e#3009#3706#2" expanded="true" />
@@ -54,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="formtest.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="formtest.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/formtest.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+            <state relative-caret-position="132">
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -101,10 +99,10 @@
         <option value="$PROJECT_DIR$/indeeeex.html" />
         <option value="$PROJECT_DIR$/blablab.html" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/stylesheet.css" />
         <option value="$PROJECT_DIR$/scripts.js" />
         <option value="$PROJECT_DIR$/firstPage.html" />
         <option value="$PROJECT_DIR$/formtest.html" />
+        <option value="$PROJECT_DIR$/stylesheet.css" />
       </list>
     </option>
   </component>
@@ -256,11 +254,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529573261810</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="bla">
+      <created>1529579114727</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1529579114727</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10405000" />
+    <option name="totallyTimeSpent" value="16329000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -422,24 +427,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="107" column="14" lean-forward="true" selection-start-line="107" selection-start-column="14" selection-end-line="107" selection-end-column="14" />
-          <folding>
-            <element signature="e#463#1160#2" expanded="true" />
-            <element signature="e#3009#3706#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/firstPage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -447,10 +434,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/formtest.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        <state relative-caret-position="132">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="362" column="23" selection-start-line="362" selection-start-column="23" selection-end-line="362" selection-end-column="23" />
+          <folding>
+            <element signature="e#463#1160#2" expanded="true" />
+            <element signature="e#3009#3706#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
