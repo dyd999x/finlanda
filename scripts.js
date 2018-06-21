@@ -13,7 +13,8 @@ function seeInput(){
 
     return data
 }
-function readAll(){
-    var x=seeInput();
-    return x
+function Main() {
+    x = seeInput();
+    window.alert(x);
+
 }
