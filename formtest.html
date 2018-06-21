@@ -2,20 +2,23 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script type="text/javascript" src="scripts.js"></script>
 </head>
 <body>
 <div class="center">
-    <form class="seed-form">
+    <form class="seed-form" id="seed-form">
 
         <div class="form-seed">
-            <label for="msg">Input seeds with [enter] in between (if unknown leave blank) :</label>
+            <label for="user_input">Input seeds with [enter] in between (if unknown leave blank) :</label>
             <div id="formul">
-                <textarea id="msg" name="user_message" rows="10" cols=50></textarea>
+                <textarea id="user_input" name="user_input" rows="10" cols=50></textarea>
             </div>
             <div class="buton">
-                <button class="form_submit" type="submit">Sent it!</button>
+                <button class="form_submit" type="submit" onclick="seeInput()">Sent it!</button>
             </div>
         </div>
     </form>
+    <p id="demo"></p>
 </div>
+
 </body>
