@@ -10,11 +10,9 @@ window.onscroll = function (prevScrollPos) {
 var x;
 function seeInput(){
     var data=document.getElementById("user_input").value;
-
     return data
 }
 function Main() {
     x = seeInput();
     window.alert(x);
-
 }
