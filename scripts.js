@@ -21,19 +21,20 @@ function readFile(){
     };
     fileReader.readAsText(selectedFile);
 }
+
 function Main() {
-    seeds = readSeed();
     var check1;
     check1=document.getElementById("checkbox");
     if(check1.checked==true){
         //document.getElementById("demo").innerText="pressed!";
-        readFile(); 
+        readFile();
     }else{
-        //document.getElementById("demo").innerText="not pressed";
+        seeds = readSeed();
     }
 }
 function test(){
-    document.getElementById("demo").innerText=fileValues;
-    alert(seeds);
+    //document.getElementById("demo").innerText=fileValues;
+    //alert(seeds);
+
 }
 
