@@ -20,6 +20,8 @@ function readFile(){
 function Main() {
     seeds = readSeed();
     fileValues = readFile();
-    window.alert(fileValues);
+}
+function test(){
+    window.aler(fileValues);
 }
 
