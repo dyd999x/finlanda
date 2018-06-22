@@ -369,7 +369,9 @@ html, body {
     background-color: #219713;
 }
 
-
+p{
+    display:inline-block;
+}
 
 label {
     /* To make sure that all labels have the same size and are properly aligned */
@@ -379,7 +381,7 @@ label {
     text-align: justify;
 }
 
-input, textarea {
+textarea {
     /* To make sure that all text fields have the same font settings
        By default, textareas have a monospace font */
     font: 1em sans-serif;
@@ -435,4 +437,7 @@ textarea {
     border-radius: 10px;
     padding: 10px;
     background: #bce5bc;
+}
+.inline{
+    display:inline-block;
 }

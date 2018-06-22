@@ -15,19 +15,24 @@ function readSeed(){
 }
 function readFile(){
     var selectedFile = document.getElementById('datafile').files[0];
-
     var fileReader = new FileReader();
-    fileReader.onload =function(e){
-        var text=e.target.result;
-        //document.getElementById("demo").innerText=fileValues;
+    fileReader.onload =function(e,text){
+        fileValues = e.target.result;
     };
-    fileValues=fileReader.readAsText(selectedFile);
+    fileReader.readAsText(selectedFile);
 }
 function Main() {
     seeds = readSeed();
-    readFile();
+    var check1;
+    check1=document.getElementById("checkbox").value;
+    if(check1==1){
+        readFile();
+    }else{
+        document.getElementById("demo").innerText="not pressed";
+    }
 }
 function test(){
     document.getElementById("demo").innerText=fileValues;
+    alert(seeds);
 }
 
