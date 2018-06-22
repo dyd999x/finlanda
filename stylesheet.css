@@ -357,7 +357,7 @@ html, body {
 
 
 
-form {
+.form-seed {
     /* Just to center the form on the page */
     margin: auto;
 
@@ -369,9 +369,7 @@ form {
     background-color: #219713;
 }
 
-form div + div {
-    margin-top: 1em;
-}
+
 
 label {
     /* To make sure that all labels have the same size and are properly aligned */

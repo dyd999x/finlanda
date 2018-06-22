@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/formtest.html" beforeDir="false" afterPath="$PROJECT_DIR$/formtest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,8 +34,8 @@
       <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7964">
-              <caret line="362" selection-start-line="362" selection-end-line="362" />
+            <state relative-caret-position="393">
+              <caret line="371" lean-forward="true" selection-start-line="371" selection-end-line="371" />
               <folding>
                 <element signature="e#463#1160#2" expanded="true" />
                 <element signature="e#3009#3706#2" expanded="true" />
@@ -43,11 +44,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="pic_test.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pic_test.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
       <file leaf-file-name="firstPage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/firstPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-88">
-              <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+            <state relative-caret-position="440">
+              <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -55,8 +61,8 @@
       <file leaf-file-name="formtest.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/formtest.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+            <state relative-caret-position="286">
+              <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -64,8 +70,8 @@
       <file leaf-file-name="scripts.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            <state relative-caret-position="484">
+              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -89,6 +95,11 @@
     <option name="UPDATE_TYPE" value="REBASE" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Diana" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -101,8 +112,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/firstPage.html" />
         <option value="$PROJECT_DIR$/stylesheet.css" />
-        <option value="$PROJECT_DIR$/scripts.js" />
         <option value="$PROJECT_DIR$/formtest.html" />
+        <option value="$PROJECT_DIR$/scripts.js" />
       </list>
     </option>
   </component>
@@ -177,6 +188,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.scripts.js" />
+        <item itemvalue="Node.js.scripts.js" />
       </list>
     </recent_temporary>
   </component>
@@ -192,6 +204,7 @@
       <updated>1529487882811</updated>
       <workItem from="1529487884969" duration="9073000" />
       <workItem from="1529602416408" duration="553000" />
+      <workItem from="1529655298478" duration="509000" />
     </task>
     <task id="LOCAL-00001" summary="bla">
       <created>1529490697047</created>
@@ -309,7 +322,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22714000" />
+    <option name="totallyTimeSpent" value="23760000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -382,6 +395,40 @@
     <option name="LAST_COMMIT_MESSAGE" value="&#10;asd" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/blablab.html" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="176">
+            <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jscript.js" />
+    <entry file="file://$PROJECT_DIR$/mooor.html" />
+    <entry file="file://$PROJECT_DIR$/stylesheet.css" />
+    <entry file="file://$PROJECT_DIR$/formtest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moor.css" />
+    <entry file="file://$PROJECT_DIR$/firstPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -496,11 +543,6 @@
     <entry file="file://$PROJECT_DIR$/indeeeex.html" />
     <entry file="file://$PROJECT_DIR$/blablab.html" />
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="176">
@@ -509,11 +551,26 @@
           <second_editor />
         </state>
       </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pic_test.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firstPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7964">
-          <caret line="362" selection-start-line="362" selection-end-line="362" />
+        <state relative-caret-position="393">
+          <caret line="371" lean-forward="true" selection-start-line="371" selection-end-line="371" />
           <folding>
             <element signature="e#463#1160#2" expanded="true" />
             <element signature="e#3009#3706#2" expanded="true" />
@@ -521,24 +578,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/firstPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-88">
-          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/formtest.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+        <state relative-caret-position="286">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="484">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
         </state>
       </provider>
     </entry>
