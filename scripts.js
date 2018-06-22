@@ -24,11 +24,12 @@ function readFile(){
 function Main() {
     seeds = readSeed();
     var check1;
-    check1=document.getElementById("checkbox").value;
-    if(check1==1){
-        readFile();
+    check1=document.getElementById("checkbox");
+    if(check1.checked==true){
+        //document.getElementById("demo").innerText="pressed!";
+        readFile(); 
     }else{
-        document.getElementById("demo").innerText="not pressed";
+        //document.getElementById("demo").innerText="not pressed";
     }
 }
 function test(){
