@@ -1,0 +1,144 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(255, 255, 255);
+    font-family: Helvetica, sans-serif;
+    align-content: center;
+}
+
+/** HEADER **/
+#header-nav {
+    padding-top: 20px;
+    background-color: #c6ffd9;
+    border-radius: 0;
+    border: 0;
+    width:100%;
+    position: relative;
+}
+
+#content{
+    padding-top: 20px;
+    text-align: center;
+    margin-left: 15%;
+    margin-right:15%;
+
+}
+#user{
+    font-family: 'Lora', serif;
+    color: #a938ff;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    position:absolute;
+    font-size:0.8em;
+
+}
+section{
+
+    height:100px;
+    padding:10px;
+    margin:10px;
+    text-align: center;
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+
+}
+span{
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    font-size: 0.9em;
+    text-align: center;
+    background-color: #0000002e;
+    color: #fff;
+    opacity: 1;
+}
+.glyphicon {
+    font-size: 50px;
+}
+span>p{
+    position:absolute;
+    bottom: 0;
+}
+.row {
+
+    width: 100%;
+    background-color: #c6ffd9;
+    padding: 30px;
+
+}
+.navbar-brand {
+    padding-top: 25px;
+}
+
+.navbar-brand h1 {
+    font-family: 'Lora', serif;
+    color: #ff5d20;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    clear:both;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#new{
+    background-color: #29ee32;
+}
+#view{
+    background-color: #1597ee;
+}
+#account{
+    background-color: #eed331;
+}
+#log{
+    background-color: #ee1d10;
+}
+
+@media (max-width: 767px) {
+    /* Header */
+    .navbar-brand {
+        padding-top: 10px;
+        height: 80px;
+        width:100%;
+    }
+
+    .navbar-brand h1 {
+        padding-top: 10px;
+        font-size: 3.4vw; /* 1vw = 1% of viewport width */
+    }
+
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Header */
+    .navbar-brand {
+        padding-top: 10px;
+        height: 80px;
+    }
+
+    .navbar-brand h1 {
+        padding-top: 10px;
+        font-size: 3vw; /* 1vw = 1% of viewport width */
+    }
+
+
+}
+
+/* Simple Responsive Framework. */
+
+
+/********** Large devices only **********/
+
+
+
+
+
+
