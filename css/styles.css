@@ -8,8 +8,9 @@ body {
 
 /** HEADER **/
 #header-nav {
+    height: 5em;
     padding-top: 20px;
-    background-color: #c6ffd9;
+    background-color: #000000;
     border-radius: 0;
     border: 0;
     width:100%;
@@ -25,7 +26,7 @@ body {
 }
 #user{
     font-family: 'Lora', serif;
-    color: #a938ff;
+    color: #ff5825;
     font-size: 1.5em;
     text-shadow: 1px 1px 1px #222;
     margin-top: 0;
@@ -34,18 +35,19 @@ body {
     font-size:0.8em;
 
 }
-section{
+#content section{
 
     height:100px;
     padding:10px;
     margin:10px;
+    box-shadow: #ffffff;
     text-align: center;
     position: relative;
     border: 2px solid #3F0C1F;
     overflow: hidden;
 
 }
-span{
+#content span{
     position:absolute;
     bottom: 0;
     right: 0;
@@ -63,10 +65,10 @@ span>p{
     position:absolute;
     bottom: 0;
 }
-.row {
+#content>.row {
 
     width: 100%;
-    background-color: #c6ffd9;
+    background-color: #000000;
     padding: 30px;
 
 }
@@ -101,7 +103,26 @@ span>p{
 #log{
     background-color: #ee1d10;
 }
+.panel-footer .row{
+    background-color: #000000;
 
+
+}
+.panel-footer{
+    margin-top: 7em;
+    height: 20%;
+    background-color: #000000;
+}
+.list-group{
+    border-radius: 0;
+    background-color: #000000;
+}
+.list-group-item{
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 0;
+    border:0px;
+}
 @media (max-width: 767px) {
     /* Header */
     .navbar-brand {
