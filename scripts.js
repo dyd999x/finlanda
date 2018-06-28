@@ -1,5 +1,7 @@
 var prevScrollPos=window.pageYOffset;
-
+var $ = function(selector){
+    return document.querySelector(selector);
+};
 window.onscroll = function (prevScrollPos) {
     var currentScrollPos = window.pageYOffset;
     if(prevScrollPos>currentScrollPos) {
@@ -26,17 +28,15 @@ function readFile(){
 
 function Main() {
     var check1;
-    check1=document.getElementById("checkbox");
+    check1=$('#checkbox');
     if(check1.checked==true){
-        //document.getElementById("demo").innerText="pressed!";
+        document.getElementById("demo").innerText="pressed!";
         readFile();
     }else{
         seeds = readSeed();
     }
 }
-var $ = function(selector){
-    return document.querySelector(selector);
-};
+
 $('.generate').onclick=function(){
 
     var dynamicValue = $('.generate-submit').value;
@@ -55,8 +55,7 @@ $('.generate').onclick=function(){
     return false;
 };
 function test(){
-    //document.getElementById("demo").innerText=fileValues;
-    //alert(seeds);
+    document.getElementById("demo").innerText=fileValues;
 
 }
 

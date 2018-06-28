@@ -16,7 +16,7 @@
         var link = links[i];
         link.onclick = dynamicEvent;
     }
-
+    var a=document.get
     $('.generate').onclick=function(){
 
         var dynamicValue = $('.generate-submit').value;
