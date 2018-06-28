@@ -22,6 +22,8 @@ function readFile(){
     fileReader.readAsText(selectedFile);
 }
 
+
+
 function Main() {
     var check1;
     check1=document.getElementById("checkbox");
@@ -32,6 +34,26 @@ function Main() {
         seeds = readSeed();
     }
 }
+var $ = function(selector){
+    return document.querySelector(selector);
+};
+$('.generate').onclick=function(){
+
+    var dynamicValue = $('.generate-submit').value;
+
+    if(!dynamicValue){
+
+        alert('Please eneter something');
+    } else {
+        $('.generate-submit').value = 'Click your item below';
+        var li = document.createElement('li');
+        li.className = 'dynamic-link';
+        li.innerHTML = dynamicValue;
+        $('#links').appendChild(li);
+        li.onclick = dynamicEvent;
+    }
+    return false;
+};
 function test(){
     //document.getElementById("demo").innerText=fileValues;
     //alert(seeds);
