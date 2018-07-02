@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="94d2c41f-058b-4061-9a9a-f4c01510f61f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles_index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,8 +21,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -30,24 +30,21 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="74" column="63" lean-forward="true" selection-start-line="74" selection-start-column="63" selection-end-line="74" selection-end-column="63" />
+            <state relative-caret-position="1309">
+              <caret line="77" column="39" lean-forward="true" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="39" />
               <folding>
                 <element signature="e#589#595#0" expanded="true" />
-                <element signature="e#598#604#0" expanded="true" />
                 <element signature="e#623#629#0" expanded="true" />
-                <element signature="e#623#629#0" expanded="true" />
-                <element signature="e#2938#2944#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <file leaf-file-name="styles_index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/styles_index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1026">
-              <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+            <state relative-caret-position="272">
+              <caret line="115" selection-start-line="115" selection-end-line="115" />
             </state>
           </provider>
         </entry>
@@ -55,7 +52,7 @@
       <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
+            <state relative-caret-position="89556">
               <caret line="5268" column="17" selection-start-line="5268" selection-start-column="7" selection-end-line="5268" selection-end-column="17" />
             </state>
           </provider>
@@ -89,6 +86,11 @@
     <option name="UPDATE_TYPE" value="REBASE" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -104,8 +106,8 @@
         <option value="$PROJECT_DIR$/firstPage.html" />
         <option value="$PROJECT_DIR$/moor.css" />
         <option value="$PROJECT_DIR$/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/styles.css" />
       </list>
     </option>
   </component>
@@ -118,9 +120,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="252" />
-    <option name="y" value="32" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-73" />
+    <option name="y" value="45" />
     <option name="width" value="3875" />
     <option name="height" value="2040" />
   </component>
@@ -138,11 +140,6 @@
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="finlanda" type="cbb8eebc:String" user="finlanda" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="finlanda" type="cbb8eebc:String" user="finlanda" />
-              <item name=".idea" type="cbb8eebc:String" user=".idea" />
             </path>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
@@ -205,7 +202,8 @@
       <workItem from="1529678913520" duration="1436000" />
       <workItem from="1529778888212" duration="725000" />
       <workItem from="1529779630859" duration="275000" />
-      <workItem from="1530004295541" duration="20239000" />
+      <workItem from="1530004295541" duration="21520000" />
+      <workItem from="1530518578141" duration="1488000" />
     </task>
     <task id="LOCAL-00001" summary="bla">
       <created>1529490697047</created>
@@ -298,26 +296,33 @@
       <option name="project" value="LOCAL" />
       <updated>1530025679469</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="bla">
+      <created>1530030339002</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1530030339002</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52892000" />
+    <option name="totallyTimeSpent" value="55661000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="101" y="13" width="1550" height="816" extended-state="0" />
+    <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22277847" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18607678" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50187737" side_tool="true" weight="0.18156028" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50187737" side_tool="true" visible="true" weight="0.18044077" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49812266" weight="0.18156028" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -330,19 +335,19 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22277847" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49812266" visible="true" weight="0.18156028" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50187737" side_tool="true" visible="true" weight="0.18156028" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49812266" visible="true" weight="0.18156028" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -390,66 +395,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jscript.js">
+    <entry file="file://$PROJECT_DIR$/css/styles_index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        <state relative-caret-position="612">
+          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/firstPage.html">
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        <state relative-caret-position="89556">
+          <caret line="5268" column="17" selection-start-line="5268" selection-start-column="7" selection-end-line="5268" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/js/npm.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/moor.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jscript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/firstPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moor.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        <state relative-caret-position="1258">
+          <caret line="74" column="63" lean-forward="true" selection-start-line="74" selection-start-column="63" selection-end-line="74" selection-end-column="63" />
+          <folding>
+            <element signature="e#589#595#0" expanded="true" />
+            <element signature="e#623#629#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -460,34 +430,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jscript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/firstPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moor.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="53" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/jscript.js" />
+    <entry file="file://$PROJECT_DIR$/firstPage.html" />
+    <entry file="file://$PROJECT_DIR$/stylesheet.css" />
+    <entry file="file://$PROJECT_DIR$/moor.css" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -495,34 +441,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jscript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/firstPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheet.css">
+    <entry file="file://$PROJECT_DIR$/jscript.js" />
+    <entry file="file://$PROJECT_DIR$/firstPage.html" />
+    <entry file="file://$PROJECT_DIR$/stylesheet.css" />
+    <entry file="file://$PROJECT_DIR$/moor.css" />
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/moor.css">
+    <entry file="file://$PROJECT_DIR$/jscript.js" />
+    <entry file="file://$PROJECT_DIR$/firstPage.html" />
+    <entry file="file://$PROJECT_DIR$/stylesheet.css" />
+    <entry file="file://$PROJECT_DIR$/moor.css" />
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        <state relative-caret-position="136">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/jscript.js" />
+    <entry file="file://$PROJECT_DIR$/firstPage.html" />
+    <entry file="file://$PROJECT_DIR$/stylesheet.css" />
+    <entry file="file://$PROJECT_DIR$/moor.css" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -530,9 +474,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheet.css" />
     <entry file="file://$PROJECT_DIR$/hehe.js" />
     <entry file="file://$PROJECT_DIR$/didi.js" />
     <entry file="file://$PROJECT_DIR$/indeeeex.html" />
@@ -548,69 +490,42 @@
     <entry file="file://$PROJECT_DIR$/didi.js" />
     <entry file="file://$PROJECT_DIR$/indeeeex.html" />
     <entry file="file://$PROJECT_DIR$/blablab.html" />
-    <entry file="file://$PROJECT_DIR$/jscript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/jscript.js" />
     <entry file="file://$PROJECT_DIR$/mooor.html" />
-    <entry file="file://$PROJECT_DIR$/moor.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2272">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/firstPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/moor.css" />
+    <entry file="file://$PROJECT_DIR$/stylesheet.css" />
+    <entry file="file://$PROJECT_DIR$/firstPage.html" />
     <entry file="file://$PROJECT_DIR$/js/npm.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
+        <state relative-caret-position="89556">
           <caret line="5268" column="17" selection-start-line="5268" selection-start-column="7" selection-end-line="5268" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles_index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1026">
-          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="74" column="63" lean-forward="true" selection-start-line="74" selection-start-column="63" selection-end-line="74" selection-end-column="63" />
+        <state relative-caret-position="1309">
+          <caret line="77" column="39" lean-forward="true" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="39" />
           <folding>
             <element signature="e#589#595#0" expanded="true" />
-            <element signature="e#598#604#0" expanded="true" />
             <element signature="e#623#629#0" expanded="true" />
-            <element signature="e#623#629#0" expanded="true" />
-            <element signature="e#2938#2944#0" expanded="true" />
           </folding>
         </state>
       </provider>

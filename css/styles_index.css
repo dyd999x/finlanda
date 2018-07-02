@@ -113,6 +113,23 @@ span>p{
     height: 20%;
     background-color: #000000;
 }
+
+#new:hover{
+    background-color: #205320;
+    box-shadow: inset 0 0 0 3px #205320;
+}
+#view:hover{
+    background-color: #154f86;
+    box-shadow: inset 0 0 0 3px #154f86;
+}
+#account:hover{
+    background-color: #8c781f;
+    box-shadow: inset 0 0 0 3px #8c781f;
+}
+#log:hover{
+    background-color: #851810;
+    box-shadow: inset 0 0 0 3px #851810;
+}
 .list-group{
     border-radius: 0;
     background-color: #000000;
