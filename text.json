@@ -1,0 +1,21 @@
+
+  [
+    {
+      "AnalysisName" : "First analysis",
+      "AnalysisID" : "A52546",
+      "status" : "Completed on",
+      "date" : "15.06.2018"
+    },
+    {
+      "AnalysisName" : "Second analysis",
+      "AnalysisID" : "B58454",
+      "status" : "Ongoing since",
+      "date" : "25.06.2018"
+    },
+    {
+      "AnalysisName" : "Third analysis",
+      "AnalysisID" : "C89462",
+      "status" : "Completed on",
+      "date" : "01.07.2018"
+    }
+  ]
