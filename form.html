@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="stylesheet_form.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+    <link rel="stylesheet" href="css/styles_index.css">
+    <title>Title</title>
 </head>
 <body>
 <header>
@@ -25,19 +25,19 @@
     </nav><!-- #header-nav -->
 </header>
 <div class="container-fluid" id="content">
-    <div class="seed-form" id="seed-form">
-
-        <div class="form-seed">
-
-            <div class="row" id="formul">
-                <span for="user_input">List of Seed Proteins to Generate the Network: </span>
-                <textarea class="user_input" id="user_input" name="user_input"></textarea>
+    <div class="row" >
+        <div >
+            <div class="col-lg-12 col-md-6 col-sm-6 col-xs-12" id="formul">
+                <textarea id="user_input" name="user_input" cols="35"></textarea>
             </div>
-            <div class="row">
-                <span>Cancer Cell Lines</span>
-                <select name="cancers">
+        </div>
+
+        <div  id="Cell_Div">
+                <span class="block" id="Cell_Span">Cancer Cell Lines</span>
+                <select id="Cell_Lines" name="cancers">
                     <option value="none" selected="selected">None</option>
-                    <optgroup label="Breast cancer">		    <option value="BT-20">BT-20</option>
+                    <optgroup label="Breast cancer">
+                        <option value="BT-20">BT-20</option>
                         <option value="BT-474">BT-474</option>
                         <option value="BT-549">BT-549</option>
                         <option value="CAL-51">CAL-51</option>
@@ -108,25 +108,18 @@
                         <option value="Panc_10.05">Panc 10.05</option>
                     </optgroup>
                 </select>
-            </div>
-            <div class="row" id="file_input">
-                    <span for="datafile" class="btn">Select Custom Newtork:</span>
-                    <input type="file" id="datafile" name="datafile">
-            </div>
-            <div class="row" id="formul2">
-                <span for="user_input">List of Additional Target Proteins</span>
-                <textarea class="user_input" id="target_proteins" name="user_input"></textarea>
-            </div>
-            <div class="buton row">
-                <button  class="form_submit" type="submit" onclick="Main()">Send it!</button>
-            </div>
-            <div class="buton1 row">
-                <button class="form_submit" type="submit" onclick="test()">Test it!</button>
-            </div>
+
         </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+        </div>
+
     </div>
-    <p id="demo">asd</p>
 </div>
+
 <footer class="panel-footer">
     <div class="container">
         <div class="row">
@@ -161,6 +154,7 @@
         <div class="text-center">&copy; Copyright Åbo Akademi</div>
     </div>
 </footer>
-<script type="text/javascript" src="js/script.js"></script>
+
+
 </body>
 </html>

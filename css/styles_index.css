@@ -23,6 +23,7 @@ body {
     margin-left: 15%;
     margin-right:15%;
 
+
 }
 #user{
     font-family: 'Lora', serif;
@@ -47,7 +48,7 @@ body {
 
 }
 #content span{
-    position:absolute;
+    position: absolute;
     bottom: 0;
     right: 0;
     width: 100%;
@@ -143,6 +144,7 @@ span>p{
     border-radius: 0;
     border:0px;
 }
+
 @media (max-width: 767px) {
     /* Header */
     .navbar-brand {

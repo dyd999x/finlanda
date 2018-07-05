@@ -18,7 +18,12 @@ body {
 .navbar-brand {
     padding-top: 25px;
 }
+#content>.seed-form {
+    max-width: 700px;
+    padding: 30px;
 
+    margin: 0 auto;
+}
 .navbar-brand h1 {
     font-family: 'Lora', serif;
     color: #ff5d20;
@@ -54,10 +59,10 @@ body {
 .form-seed {
     /* Just to center the form on the page */
     margin: auto;
-
+    box-shadow: 2px 8px 6px 8px rgba(0, 0, 0, 0.1);
     width: 70%;
     /* To see the outline of the form */
-    padding: 1em;
+    padding: 55px;
     border: 1px solid #CCC;
     border-radius: 10px;
     background-color: #29ee32;
@@ -66,22 +71,21 @@ body {
 label {
     /* To make sure that all labels have the same size and are properly aligned */
     display: inline-block;
+    float:left;
     width: fit-content;
     padding-bottom: 10px;
     text-align: justify;
 }
 
-textarea {
-    /* To make sure that all text fields have the same font settings
-       By default, textareas have a monospace font */
-    font: 1em sans-serif;
-
-    /* To give the same size to all text fields */
-    width: 300px;
+.row textarea {
+    /* vertical-align: text-top; */
+    horiz-align: left;
+    height: 8em;
+    width: 98.3%;
     box-sizing: content-box;
-
-    /* To harmonize the look & feel of text field border */
+    font: 1em sans-serif;
     border: 1px solid #999;
+    box-shadow: 1px 1px 2px 1px #67eb6b;
 }
 
 input:focus, textarea:focus {
@@ -89,16 +93,6 @@ input:focus, textarea:focus {
     border-color: #000;
 }
 
-textarea {
-    /* vertical-align: text-top; */
-    horiz-align: left;
-    height: 8em;
-    width: 100%;
-    border-radius: 10px;
-}
-#formul {
-    margin-left: 0em;
-}
 .form_submit{
     margin-top: 1em;
     -webkit-transition-duration: 0.4s; /* Safari */
@@ -120,6 +114,11 @@ textarea {
     margin: auto;
     text-align: center;
 }
+.block{
+    margin-top: 5%;
+    border: 3px solid #ffff00;
+
+}
 .center {
     margin: auto;
     width: 50em;
@@ -133,8 +132,6 @@ textarea {
 }
 .panel-footer .row{
     background-color: #000000;
-
-
 }
 .panel-footer{
     margin-top: 7em;
@@ -166,6 +163,7 @@ textarea {
 
 
 }
+
 @media (min-width: 768px) and (max-width: 991px) {
     /* Header */
     .navbar-brand {
@@ -177,6 +175,27 @@ textarea {
         padding-top: 10px;
         font-size: 3vw; /* 1vw = 1% of viewport width */
     }
+}
 
-
+#datafile{
+    display: inline-block;
+    color: #5f5f5f;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 405px;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 12px 18px;
+    border: 2px solid #67eb6b;
+}
+.row{
+    max-width: 405px;
+    text-align: left;
+    margin: 25px auto 0;
+    /*box-shadow: 1px 1px 6px 1px #3333336b;*/
+    max-height: 155px;
+}
+.boxsizingBorder {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
