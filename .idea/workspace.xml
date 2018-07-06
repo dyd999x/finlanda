@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94d2c41f-058b-4061-9a9a-f4c01510f61f" name="Default" comment="Merge branch 'NedBark' of https://github.com/dyd999x/finlanda into did&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;firstPage.html&#10;#&#9;index.html&#10;#&#9;stylesheet.css">
+    <list default="true" id="94d2c41f-058b-4061-9a9a-f4c01510f61f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/js/script_form.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/formtest.html" beforeDir="false" afterPath="$PROJECT_DIR$/formtest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stylesheet_form.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet_form.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/script.js">
+      <file leaf-file-name="script_form.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/script_form.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="56" column="17" lean-forward="true" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+            <state relative-caret-position="19">
+              <caret line="82" selection-start-line="82" selection-end-line="82" />
             </state>
           </provider>
         </entry>
@@ -38,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stylesheet_form.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="stylesheet_form.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stylesheet_form.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="343">
-              <caret line="110" column="22" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
+              <caret line="253" column="30" lean-forward="true" selection-start-line="253" selection-start-column="30" selection-end-line="253" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -56,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="formtest.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="formtest.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/formtest.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+            <state relative-caret-position="396">
+              <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -89,6 +89,8 @@
       <find>back</find>
       <find>use</find>
       <find>eleme</find>
+      <find>btn</find>
+      <find>label</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -184,6 +186,28 @@
               <item name="finlanda" type="cbb8eebc:String" user="finlanda" />
               <item name="js" type="cbb8eebc:String" user="js" />
             </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+              <item name="C:" type="cbb8eebc:String" user="C:" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+              <item name="C:" type="cbb8eebc:String" user="C:" />
+              <item name="Users" type="cbb8eebc:String" user="Users" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+              <item name="C:" type="cbb8eebc:String" user="C:" />
+              <item name="Users" type="cbb8eebc:String" user="Users" />
+              <item name="Asus" type="cbb8eebc:String" user="Asus" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -193,7 +217,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js/script.js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/index.html" />
@@ -216,11 +240,11 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="scripts.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="scripts.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="script_form.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/script_form.js" working-dir="$PROJECT_DIR$" />
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.scripts.js" />
-        <item itemvalue="Node.js.scripts.js" />
+        <item itemvalue="Node.js.script_form.js" />
+        <item itemvalue="Node.js.script_form.js" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +265,7 @@
       <workItem from="1530004295541" duration="21520000" />
       <workItem from="1530518578141" duration="1488000" />
       <workItem from="1530520667843" duration="7487000" />
-      <workItem from="1530856926231" duration="1889000" />
+      <workItem from="1530856926231" duration="15379000" />
     </task>
     <task id="LOCAL-00001" summary="bla">
       <created>1529490697047</created>
@@ -355,25 +379,33 @@
       <option name="project" value="LOCAL" />
       <updated>1530797468903</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Merge branch 'NedBark' of https://github.com/dyd999x/finlanda into did&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;firstPage.html&#10;#&#9;index.html&#10;#&#9;stylesheet.css">
+      <created>1530864532826</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1530864532826</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76781000" />
+    <option name="totallyTimeSpent" value="90271000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1886196" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50105375" side_tool="true" visible="true" weight="0.32897604" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49894625" visible="true" weight="0.32897604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49947312" weight="0.39978212" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -438,6 +470,11 @@
     <MESSAGE value="bla" />
     <MESSAGE value="Merge branch 'NedBark' of https://github.com/dyd999x/finlanda into did&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;firstPage.html&#10;#&#9;index.html&#10;#&#9;stylesheet.css" />
     <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'NedBark' of https://github.com/dyd999x/finlanda into did&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;firstPage.html&#10;#&#9;index.html&#10;#&#9;stylesheet.css" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/jscript.js" />
@@ -552,7 +589,13 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/js/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -586,24 +629,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
+    <entry file="file://$PROJECT_DIR$/js/script_form.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="56" column="17" lean-forward="true" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+        <state relative-caret-position="19">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/formtest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheet_form.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
-          <caret line="110" column="22" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/formtest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+          <caret line="253" column="30" lean-forward="true" selection-start-line="253" selection-start-column="30" selection-end-line="253" selection-end-column="30" />
         </state>
       </provider>
     </entry>

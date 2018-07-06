@@ -28,13 +28,19 @@
     <div class="seed-form" id="seed-form">
 
         <div class="form-seed">
-
+            <hr>
             <div class="row text_div" id="formul">
                 <span for="user_input">List of Seed Proteins to Generate the Network: </span>
                 <textarea class="user_input" id="user_input" name="user_input"></textarea>
                 <p id="nr_lines"></p>
             </div>
-            <div class="row">
+            <hr>
+            <div class="row" id="file_input">
+                <input class="datafile" type="file" id="datafile" name="datafile">
+                <label for="datafile">Upload Custom Network:</label>
+            </div>
+            <hr>
+            <div class="row border">
                 <span>Cancer Cell Lines</span>
                 <select name="cancers">
                     <option value="none" selected="selected">None</option>
@@ -111,19 +117,22 @@
                     </optgroup>
                 </select>
             </div>
-            <div class="row" id="file_input">
-                    <span for="datafile" class="btn">Select Custom Newtork:</span>
-                    <input type="file" id="datafile" name="datafile">
-            </div>
+            <hr>
             <div class="row" id="formul2">
-                <span for="user_input">List of Additional Target Proteins</span>
+                <span for="user_input">List of Additional Target Proteins </span><br>
                 <textarea class="user_input" id="target_proteins" name="user_input"></textarea>
             </div>
-            <div class="buton row">
+            <hr>
+            <div class="row" id="formul3">
+                <span for="user_input">User defined drug target proteins to be included in the analysis<br /></span>
+                <textarea class="user_input" id="target_by_drug" name="user_input"></textarea>
+            </div>
+            <div class="butonSubmit row">
                 <button  class="form_submit" type="submit" onclick="Main()">Send it!</button>
             </div>
-            <div class="buton1 row">
-                <button class="form_submit" type="submit" onclick="test()">Test it!</button>
+            <hr>
+            <div class="row">
+                <button id="buton1" class="form_submit" type="submit" onclick="test()">Test it!</button>
             </div>
         </div>
     </div>
@@ -163,6 +172,6 @@
         <div class="text-center">&copy; Copyright Åbo Akademi</div>
     </div>
 </footer>
-<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/script_form.js"></script>
 </body>
 </html>
