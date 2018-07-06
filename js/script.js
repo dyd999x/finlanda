@@ -29,12 +29,10 @@ function readFile(){
 function Main() {
     var check1;
     check1=$('#checkbox');
-    if(check1.checked==true){
-        document.getElementById("demo").innerText="pressed!";
-        readFile();
-    }else{
-        seeds = readSeed();
-    }
+    document.getElementById("demo").innerText="pressed!";
+    readFile();
+    seeds = readSeed();
+
 }
 
 $('.generate').onclick=function(){
@@ -55,6 +53,6 @@ $('.generate').onclick=function(){
     return false;
 };
 function test(){
-    document.getElementById("demo").innerText=fileValues;
+    document.getElementById("user_input").value=fileValues;
     alert(seeds);
 }

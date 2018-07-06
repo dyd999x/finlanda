@@ -105,10 +105,17 @@ input:focus, textarea:focus {
     padding: 15px 40px;
     text-align: center;
 }
-
+#nr_lines{
+    padding-bottom: 20px;
+    display: inline-block;
+    position:absolute;
+}
 .form_submit:hover {
     background-color: #4CAF50; /* Green */
     color: white;
+}
+#user_input{
+    width:80%;
 }
 .buton{
     margin: auto;
@@ -163,7 +170,9 @@ input:focus, textarea:focus {
 
 
 }
-
+.text_div{
+    position:relative;
+}
 @media (min-width: 768px) and (max-width: 991px) {
     /* Header */
     .navbar-brand {
